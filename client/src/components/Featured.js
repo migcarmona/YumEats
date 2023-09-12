@@ -38,7 +38,7 @@ const Featured = () => {
 
     return (
         <div className='max-w-[1520px] h-[500px] w-full py-4 px-4 relative'>
-            <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+            <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 overflow-auto'
                 style={{backgroundImage:`url(${sliders[currentIndex].image})`}}>
             </div>
             <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
