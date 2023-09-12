@@ -3,13 +3,13 @@ import twophones from './images/two_phones.webp'
 
 const Delivery = () => {
   return (
-    <div className='w-full bg-white py-16 px-4 overflow-auto'>
+    <div className='w-full bg-white py-16 px-4'>
         <h3 className='text-orange-500 font-bold text-2xl text-center'>Quick Delivery App</h3>
         <div className='w-[1521px] mx-auto grid md:grid md:grid-cols-2'>
-            <img alt='two phones' className='w-[550px] mx-auto my-4 overflow-auto' src={twophones}/>
-            <div className='flex flex-col justify-center overflow-auto'>
+            <img alt='two phones' className='w-[550px] mx-auto my-4 h-auto' src={twophones}/>
+            <div className='flex flex-col justify-center'>
                 <p className='text-[#00df9a] font-bold'>Get The App</p>
-                <h1 className='md:text-4xl sm:text-3x text-2xl font-bold py-2 '>Limitless Convenience on-demand</h1>
+                <h1 className='md:text-4xl sm:text-3x text-2xl font-bold py-2'>Limitless Convenience on-demand</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             molestiae delectus culpa hic assumenda, voluptate reprehenderit
             dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
