@@ -13,7 +13,7 @@ const Meal = () => {
   }
 return (
   <div className='max-w-[1520px] m-auto px-4 py-12'>
-    <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Our Meal</h1>
+    <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Our Meals</h1>
     <div className='flex flex-col l:flex-row justify-center'>
       <div className='flex justify-center md:justify-center p-2 mb-2'>
         <button onClick={()=>setFoods(mealData)}
@@ -37,11 +37,11 @@ return (
             <img alt={item.name} key={item.id} src={item.image} className='w-full h-[200px] object-cover rounded-lg' />
             <div className='flex justify-between py-2 px-4'>
               <p className='font-bold -ml-2'>{item.name}</p>
-              <p className=' bg-orange-700 h-18 w-18 rounded-full -mt-10 p-2 text-white border-8 font-bold'>{item.price}</p>
+              <p className=' bg-orange-700 h-18 w-18 rounded-full -mt-10 py-3 px-2 text-white border-8 font-bold'>{item.price}</p>
             </div>
 
             <div className='pl-2 py-2 -mt-3'>
-              <p className='flex items-center text-indigo-600 cursor-pointer'>View More<ArrowSmRightIcon className='w-5 ml-2' /></p>
+              <p className='flex items-center text-indigo-600 cursor-pointer'>View More<ArrowSmRightIcon className='w-5 ml-1' /></p>
             </div>
           </div>
         ))
