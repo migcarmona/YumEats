@@ -2,8 +2,9 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className='w-full m-auto text-white px-4 bg-[#24262b]'>
-        <div className='max-w-[1520px] mx-auto grid lg:grid-cols-3'>
+    <div className='w-full bg-[#24262b]'>
+    <div className='max-w-[1520px] m-auto text-white px-4 py-2'>
+        <div className='py-6 px-4 grid lg:grid-cols-3'>
             <div className='lg:col-span-2 my-6 '>
                 <h1>Need advice on how to improve your flow?</h1>
                 <p>Sign up now to join our newsletter and stay up to date.</p>
@@ -20,6 +21,7 @@ const Newsletter = () => {
             </div>
             <hr className='my-8 bg-gray-700 border-1'></hr>
         </div>
+    </div>
     </div>
   )
 }
