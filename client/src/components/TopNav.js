@@ -61,7 +61,7 @@ const TopNav = ()=> {
                 <li className='text-xl py-4 flex'>
                   <MdOutlineFavorite size={25} 
                   className='mr-4 p-1 text-white bg-black rounded-full'
-                  />My Favourite
+                  />Favorites
                 </li>
                 <li className='text-xl py-4 flex'>
                   <FaGoogleWallet size={25} 
